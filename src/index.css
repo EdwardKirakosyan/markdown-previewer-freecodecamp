@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.main-div {
+  display: flex;
+}
+
+#editor {
+  width: 50%;
+  height: 500px;
+  resize: none;
+  overflow: auto;
+  margin: 1em;
+  padding: 1em;
+}
+
+#preview {
+  width: 50%;
+  border: 1px solid;
+  margin: 1em;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
